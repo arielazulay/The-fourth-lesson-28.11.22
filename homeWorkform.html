@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="wclassthradioGrupe-wclassthradioGrupial-scale=1.0"
+    />
+    <title>form tutorial</title>
+    <h1>navigation</h1>
+    <ul>
+      <li><a href="./index.html">index</a></li>
+      <br />
+      <li><a href="./myFirstPage.html"> myFirstPage</a></li>
+      <br />
+      <li><a href="./mySecondPage.html">mySecondPage</a></li>
+      <br />
+      <li><a href="./MyThirdPage.html">MyThirdPage</a></li>
+      <br />
+      <li><a href="./homeWorkform.html">HomeWorkForm</a></li>
+    </ul>
+  </head>
+  <body>
+    <form action="https://formspree.io/f/maykrbll" method="post">
+      <label for="user-name"> User Name :</label>
+      <input type="text" name="text" id="user-name" />
+      <br /><br />
+      <label for="password">password :</label>
+      <input type="password" name="password" id="password" />
+      <br /><br />
+      <label for="tel">your phone number :</label>
+      <input type="tel" name="tel" id="tel" />
+      <br /><br /><br />
+      <label for="radioGrup">Choose box:</label>
+      <input type="radio" name="check" class="radioGrup" value="1" checked />
+      <input type="radio" name="check" class="radioGrup" value="2" />
+      <input type="radio" name="check" class="radioGrup" value="3" />
+      <br /><br /><br />
+      <label for="range">select your happiness between 1-10</label>
+      <input
+        type="range"
+        name="range"
+        id="range"
+        min="0"
+        max="10"
+        step="1"
+        value="0"
+      />
+      <br /><br /><br />
+      <label for="color">chose a color</label>
+      <input type="color" name="color" id="color" />
+      <br /><br /><br />
+      <input type="submit" value="sand" />
+      <input type="reset" value="reset" />
+    </form>
+  </body>
+</html>
